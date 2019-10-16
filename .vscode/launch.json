@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Main Process",
+      "program": "${workspaceFolder}/electron/main.ts",
+      "stopOnEntry": false,
+      "args": ["."],
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
+      "runtimeArgs": [
+        "--serve", "--enable-logging"
+      ],
+      "env": {"ELECTRON_ENV": "dev"},
+      "sourceMaps": true,
+      "outFiles": [
+        "${workspaceRoot}/electron/dist/**/*.js"
+      ],
+      "internalConsoleOptions": "openOnSessionStart",
+      "console": "integratedTerminal"
+    }
+  ]
+}
