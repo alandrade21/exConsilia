@@ -2,12 +2,12 @@
   "name": "@alandrade21/exconsilia",
   "version": "0.0.1",
   "description": "Project Planner",
-  "homepage": "https://github.com/alandrade21/exConsilia-boilerplate",
+  "homepage": "https://github.com/alandrade21/exConsilia",
   "license": "AGPL-3.0",
   "author": "André Andrade <alandrade21@gmail.com> (https://github.com/alandrade21)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alandrade21/exConsilia-boilerplate.git"
+    "url": "https://github.com/alandrade21/exConsilia.git"
   },
   "keywords": [
     "angular",
@@ -17,7 +17,9 @@
     "sass",
     "sqlite",
     "typeorm",
-    "boilerplate"
+    "project",
+    "planner",
+    "kamban"
   ],
   "main": "dist/electron-out-tsc/main.js",
   "private": true,
